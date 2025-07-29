@@ -11,6 +11,7 @@ $championList = file_get_contents($championListUrl);
 $championList = json_decode($championList, true);
 
 // Préparer les données des champions
+// Préparer les données des champions
 $champions = $championList['data'];
 ?>
 
